@@ -37,7 +37,7 @@ def generate_wallet(thread_id):
                     print(f"助记词：{words}")
             break
         else:
-            print(f"地址：{acct.address} 不满足要求!")
+            print(f"地址：{acct.address} 不满足!")
 
         if attempts % 500 == 0:
             print(f"[线程 {thread_id}] 已尝试 {attempts} 次...")
