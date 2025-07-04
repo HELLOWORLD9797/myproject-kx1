@@ -35,7 +35,6 @@ def generate_wallet(thread_id):
                     print(f"地址：{acct.address}")
                     print(f"私钥：{acct.key.hex()}")
                     print(f"助记词：{words}")
-                    print(f"耗时：{time.time() - START_TIME:.2f} 秒")
             break
         else:
             print(f"地址：{acct.address} 不满足要求!")
