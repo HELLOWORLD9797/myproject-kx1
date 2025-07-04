@@ -8,7 +8,7 @@ import os
 Account.enable_unaudited_hdwallet_features()
 
 # 配置参数
-TARGET_SUFFIX = "888888"
+TARGET_SUFFIX = "88888888"
 NUM_THREADS = 50  # 根据你的系统核心数自动设置线程数
 FOUND = False
 LOCK = threading.Lock()
